@@ -1,0 +1,33 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter 笔记本缓存
+.ipynb_checkpoints/
+
+# 向量数据库缓存（chroma向量库，不要上传！每次运行会自动生成）
+chroma_db/
+
+# 临时锁文件
+.locks/
+
+# VSCode 本地配置（可选，如果你不想上传 .vscode 文件夹就打开下面一行）
+# .vscode/
+
+# PDF数据文件（如果你不想把测试pdf上传github，放开下面两行）
+# *.pdf
+# *.png
+
+# 环境、虚拟环境文件夹
+venv/
+env/
+.venv/
+
+# 日志文件
+*.log
+
+# 系统生成垃圾文件
+.DS_Store
+Thumbs.db
